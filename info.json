@@ -1,0 +1,21 @@
+{
+    "fileName": "database",
+    "lines": 20,
+    "lists": [
+        {
+            "name": "Tipo de Venta",
+            "random_String": ["Empresa pequeña", "Empresa mediana", "Empresa grande", "Venta Online", "Cliente"]
+        },
+        {
+            "name": "Empleado",
+            "random_String": ["Liam", "Bryce", "Amelia", "Charlotte"]
+        },
+        {
+            "name": "Cantidad",
+            "random_range": {
+                "max": 20,
+                "min": 1
+            }
+        }
+    ]
+}
