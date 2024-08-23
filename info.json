@@ -4,18 +4,18 @@
     "lists": [
         {
             "name": "Tipo de Venta",
-            "random_String": ["Empresa pequeña", "Empresa mediana", "Empresa grande", "Venta Online", "Cliente"]
+            "type": "random_String",
+            "values": ["Empresa pequeña", "Empresa mediana", "Empresa grande", "Venta Online", "Cliente"]
         },
         {
             "name": "Empleado",
-            "random_String": ["Liam", "Bryce", "Amelia", "Charlotte"]
+            "type": "random_String",
+            "values": ["Liam", "Bryce", "Amelia", "Charlotte"]
         },
         {
             "name": "Cantidad",
-            "random_range": {
-                "max": 20,
-                "min": 1
-            }
+            "type": "random_Range",
+            "values": [1, 20]
         }
     ]
 }
